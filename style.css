@@ -1,0 +1,202 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 10px 20px
+}
+h2{
+    color:rgb(60, 226, 170);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.nav-links {
+        list-style:none;
+        display:flex;
+        
+      }
+.nav-links a{
+     color:#ababab;
+     text-decoration:none;
+     list-style: none;
+     font-size:16px
+}
+.nav-links li{
+    margin-right:20px
+  }
+
+ 
+
+  .nav-links a:hover{
+    color:rgb(60, 226, 170);
+  }
+#about{
+  color:rgb(60, 226, 170);
+}
+
+ 
+
+
+header img {
+    width: 268px;
+    height: 33px;
+  }
+
+
+.twoparagraph{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    color:#747474;
+    font-size: 20px;
+
+}
+
+.image{
+    padding-top: 40px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 40px;
+    height: 40px;
+
+}
+
+.for1 {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  height: 345px;
+}
+.for2 {
+  background-color: #3d83df;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  height: 345px;
+}
+.for3 {
+  background-color: #1b2734;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  height: 345px;
+}
+.threesection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.375em 1.25em 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 3.75rem auto 2.5rem;
+  color: #fff;
+  font-family: Work Sans, Arial, sans-serif;
+  max-width: 1015px;
+  padding: 0 20px;
+  position: relative;
+  
+}
+#logo-country img{
+  height: 50px;
+  width: 75px;
+  display:inline;
+  padding-right: 20px;
+  gap: 2.5rem;
+  
+
+}
+#select4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  gap: 2.5em;
+ 
+
+}
+#select4 p{
+  font-size:xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #747474;
+}
+#select5{
+  background-color: #a3fff3;
+  width: auto;
+  height: 600PX;
+  padding: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.part1 h2{
+
+  color: #00b39b;
+  font-weight: lighter;
+  text-align: left;
+
+}
+.part1 p{
+  color: #747474;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+#leader,#patients,#appointments,#doctors{
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 10px;
+
+}
+
+.part2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px;
+  gap: 3rem;
+  row-gap: 3rem;
+}
+.one,.two{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 2.5rem;
+}
+#select6{
+  text-align: center;
+}
+#select6 h2{
+  color: #00b39b;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#select6 p{
+  color:#747474 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+  text-align: center;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  padding: 50px;
+}
+footer a:hover{
+  color:blue;
+}
+footer a {
+  color: #00b39b;
+}
