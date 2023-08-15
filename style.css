@@ -2,7 +2,9 @@
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding: 10px 20px
+  padding: 10px 20px;
+  position: sticky;
+  top: 0px;
 }
 h2{
     color:rgb(60, 226, 170);
